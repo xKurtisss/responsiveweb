@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-image: url('images/bg-pattern-intro.svg'), linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    height: 640px;
+    background-position: center;
+    border-radius: 0px 0px 0px 100px;
+
+}
+.logo {
+    padding: 60px 40px;
+}
+#hamburger {
+    position: absolute;
+    right: 10%;
+    padding: 8px;
+}
+.headtext {
+    color: hsl(0, 0%, 100%);
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 65px;
+}
+.subheadtext {
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.89);
+    font-weight: 300;
+    text-align: center;
+}
+#mobilebuttons {
+    text-align: center;
+    padding-top: 30px;
+
+}
+#mobilebuttons li {
+    display: inline-block;
+    text-align: center;
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+#mobilebuttons button {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#mobbutton {
+    border-color: transparent;
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+    margin-right: 10px;
+    font-weight: 600;
+    border-radius: 25px;
+}
+#mobbutton2 {
+    border-color: rgba(255, 255, 255, 0.774);
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+}
+nav button:hover {
+        background-color: rgba(255, 255, 255, 0.19);
+        padding-top: 16.1px;
+        padding-bottom: 16px; 
+        cursor: pointer;
+}
+.headtext2 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    color: hsl(208, 49%, 24%);
+    font-weight: 600;
+    font-size: 33px;
+}
+#illustrationeditor {
+    background-image: url(images/illustration-editor-mobile.svg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+}
+.headtext3 {
+    text-align: center;
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    color: hsl(208, 49%, 24%);
+    font-weight: 600;
+    font-size: 33px;
+}
+.subtext2 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: hsla(206, 13%, 34%, 0.712);
+    line-height: 2rem;
+    display: block;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.headtext4 {
+    text-align: center;
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    color: hsl(208, 49%, 24%);
+    font-weight: 600;
+    padding-top: 35px;
+    font-size: 33px;
+}
+
+.imgsection img{
+    height: 29rem;
+    width: auto;
+    background-repeat: no-repeat;
+    float: left;
+    padding-top: 65px;
+    clear: both;
+    position: absolute;
+}
+.section2 {
+    text-align: center;
+    background-image: url('images/bg-pattern-circles.svg'), linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    font-family: 'ubuntu', Arial, Helvetica, sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    border-radius: 0px 150px 0px 150px;
+    background-size: cover;
+    margin-top: 16rem;
+    background-position: 90% 50%;
+}
+.section2 h2 {
+    font-weight: 500;
+    color: white;
+    padding-top: 15rem;
+    font-size: 35px;
+    line-height: 3rem;
+}
+.section2 h3 {
+    padding-top: 2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: hsla(0, 0%, 100%, 0.781);
+    padding-bottom: 12rem;
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+.moblaptop {
+    background-image: url(images/illustration-laptop-mobile.svg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2rem;
+}
+.container {
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+}
+.container h2 {
+    color: hsl(208, 49%, 24%);
+    font-size: 33px;
+}
+.container h3 {
+    color: hsla(206, 13%, 34%, 0.712);
+    margin-top: 20px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    line-height: 2rem;
+    font-size: 18px;
+}
+.container2 {
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.container2 h2 {
+    color: hsl(208, 49%, 24%);
+    font-size: 33px;
+}
+.container2 h3 {
+    color: hsla(206, 13%, 34%, 0.712);
+    margin-top: 20px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    line-height: 2rem;
+    font-size: 18px;
+}
+.footerlogo {
+    background-color: hsl(240, 10%, 16%);
+    margin-top: 8rem;
+    text-align: center;
+    padding-top: 70px;
+    border-radius: 0px 80px 0px 0px;
+    padding-bottom: 50px;
+}
+footer img {
+    margin-bottom: 40px;
+}
+footer li {
+    line-height: 2rem;
+    color: hsla(0, 0%, 100%, 0.712);
+    font-family: 'overpass', Arial, Helvetica, sans-serif;
+}
+#import {
+    font-weight: 700;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
