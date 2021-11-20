@@ -6,10 +6,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="jquery.js" defer></script> 
-<title>Frontend Mentor | [Blogr]</title>
+<title>Responsive Website Practice</title>
 
   
   <style>
@@ -21,15 +22,27 @@
   <nav>
     <div class="logo">
     <a href="#"><img src="images/logo.svg" alt="Blogr Logo"></a>
+      <ul>
+        <li>
+          Product
+        </li>
+        <li>Company</li>
+        <li>Connect</li>
+      </ul>
     <img id="hamburger" src="images/icon-hamburger.svg" alt="Drop Down Menu Icon">
+  </div>
+  <div id="desktopnav">
+    <a href="#"><button class="desktopbutton"><li>Login</li></button></a>
+    <a href="#"><button class="desktopbutton2"><li>Sign Up</li></button></a>
   </div>
   <div>
   <h2 class="headtext">A modern publishing platform</h2><br>
-  <h3 class="subheadtext">Grow your audience and build your <br>online brand</h3>
+  <h3 class="subheadtext">Grow your audience and build your online brand</h3>
 </div>
 <div>
   <ul id="mobilebuttons">
     <a href="#"><button id="mobbutton"><li>Start for Free</li></button></a>
+    &nbsp;&nbsp;&nbsp;
       <a href="#"><button id="mobbutton2"><li>Learn More</li></button></a>
   </ul>
 </div>
@@ -38,7 +51,7 @@
     <h2 class="headtext2">Designed for the future</h2>
     <div id="illustrationeditor">
     </div>
-    <div>
+    <div id="wrapper">
     <h2 class="headtext3">
       Introducing an extensible editor
     </h2>

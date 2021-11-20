@@ -31,6 +31,7 @@ nav {
     color: hsla(0, 0%, 100%, 0.89);
     font-weight: 300;
     text-align: center;
+    font-size: 21px;
 }
 #mobilebuttons {
     text-align: center;
@@ -43,7 +44,6 @@ nav {
     font-family: 'overpass', Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 18px;
-
 }
 #mobilebuttons button {
     border-radius: 25px;
@@ -58,9 +58,8 @@ nav {
     border-color: transparent;
     background-color: white;
     color: hsl(353, 100%, 62%);
-    margin-right: 10px;
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 25px; 
 }
 #mobbutton2 {
     border-color: rgba(255, 255, 255, 0.774);
@@ -68,12 +67,29 @@ nav {
     background-color: transparent;
     color: white;
     border-radius: 25px;
+    border-width: 2px;
 }
-nav button:hover {
-        background-color: rgba(255, 255, 255, 0.19);
-        padding-top: 16.1px;
-        padding-bottom: 16px; 
-        cursor: pointer;
+#mobbutton:hover {
+    cursor: pointer;
+    animation-name: button1;
+    animation-fill-mode: forwards;
+}
+#mobbutton2:hover {
+    cursor: pointer;
+    animation-name: button2;
+    animation-fill-mode: forwards;
+}
+@keyframes button1 {
+    100% {
+        background-color: rgba(255, 255, 255, 0.26);
+        color: white;
+    }
+}
+@keyframes button2 {
+    100% {
+        background-color: white;
+        color: hsl(353, 100%, 62%);
+    }
 }
 .headtext2 {
     text-align: center;
@@ -215,4 +231,139 @@ footer li {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+@media only screen and (max-width: 1439px) {
+.logo ul {
+    display: none;
+}
+.logo li {
+    display: none;
+}
+#desktopnav {
+    display: none;
+}
+
+
+
+
+}
+@media only screen and (min-width: 1440px) {
+    body {
+        background-color: rgb(248, 248, 248);
+    }
+    nav {
+        height: 540px;
+        border-radius: 0px 0px 0px 100px;
+    }
+    #hamburger {
+        display: none;
+    }
+    .logo ul {
+        margin-left: 150px;
+        margin-top: -30px;
+    }
+    .logo li {
+        padding: 40px;
+        color: hsla(0, 0%, 100%, 0.712);
+        font-family: 'overpass', Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        display: inline;
+        text-align: center;
+    }
+    .logo {
+        margin-left: 9rem;
+    }
+    #desktopnav {
+        float: right;
+        margin-top: -97px;
+        margin-right: 10%;
+
+    }
+    #desktopnav li {
+        display: inline;
+        font-family: 'overpass', Arial, Helvetica, sans-serif;
+        font-size: 17px;
+ 
+    }
+    .desktopbutton {
+        background-color: transparent;
+        cursor: pointer;
+        margin-right: 30px;
+        color: hsla(0, 0%, 100%, 0.712);
+        border: none;
+    }
+    .desktopbutton2 {
+        background-color: white;
+        cursor: pointer;
+        border-radius: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: none;
+        color: hsl(353, 100%, 62%);
+    }
+    .desktopbutton li {
+        font-weight: 700;
+    }
+    .desktopbutton2 li {
+        font-weight: 900;
+    }
+    .headtext {
+        font-size: 60px;
+    }
+    .subheadtext {
+        color: hsla(0, 0%, 100%, 0.801);
+    }
+    .desktopbutton2:hover {
+        animation-name: desktopbutton2;
+        animation-fill-mode: forwards;
+    }
+@keyframes desktopbutton2 {
+    100% {
+        background-color: rgba(255, 255, 255, 0.26);
+        color: white;
+    }
+}
+.desktopbutton:hover {
+    text-decoration: underline;
+}
+.headtext2 {
+    font-size: 34px;
+}
+#illustrationeditor {
+    background-image: url(images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: contain;
+    background-clip: border-box;
+    background-position: right;
+    height: 500px;
+}
+#wrapper {
+    float: left;
+    width: 500px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
