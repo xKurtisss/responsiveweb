@@ -243,7 +243,9 @@ footer li {
 #desktopnav {
     display: none;
 }
-
+.desktopimg {
+    display: none;
+}
 
 
 
@@ -332,20 +334,39 @@ footer li {
 }
 .headtext2 {
     font-size: 34px;
+    padding-top: 150px;
 }
 #illustrationeditor {
-    background-image: url(images/illustration-editor-desktop.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    background-size: contain;
-    background-clip: border-box;
-    background-position: right;
-    height: 500px;
+    display: none;
+}
+.subtext2 {
+    text-align: left;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.headtext3 {
+    text-align: left;
+}
+.headtext4 {
+    text-align: left;
 }
 #wrapper {
-    float: left;
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 50%;
+    padding-left: 15rem;
+    padding-top: 6rem;
     
+}
+.desktopimg {
+    float: right;
+    position: absolute;
+    right: -16rem;
+    top: 37rem;
+}
+.headtext3 {
+
 }
 
 
